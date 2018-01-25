@@ -1,0 +1,248 @@
+{
+"currentVersion": 10.51,
+"id": 0,
+"name": "SasquatchSightings",
+"type": "Feature Layer",
+"serviceItemId": "d936e26d65ea4f7e82759c22a1e3263a",
+"displayField": "DateOfSighting",
+"description": "This map presents point feature data representing Sasquatch sightings as reported to the Bigfoot Field Researchers Organization.  Sightings are classified into 3 categories, based on the reliablility of the reports.  Data and additional information can be found at www.BFRO.net.\n\nClass A reports involve clear sightings in circumstances where misinterpretation or misidentification of other animals can be ruled out with greater confidence. For example, there are several footprint cases that are very well documented. These are considered Class A reports, because misidentification of common animals can be confidently ruled out, thus the potential for misinterpretation is very low.\n\nClass B encounters inclue incidents where a possible sasquatch was observed at a great distance or in poor lighting conditions, and incidents in any other circumstance that did not afford a clear view of the subject are considered Class B reports.\n\nClass C encounters include most second-hand reports, and any third-hand reports, or stories with an untraceable sources.  These reports have a high potential for inaccuracy. ",
+"copyrightText": "Data from www.bfro.net",
+"defaultVisibility": true,
+"editingInfo": {
+"lastEditDate": 1516489477358
+},
+"relationships": [],
+"isDataVersioned": false,
+"supportsAppend": true,
+"supportsCalculate": true,
+"supportsTruncate": true,
+"supportsAttachmentsByUploadId": true,
+"supportsAttachmentsResizing": true,
+"supportsRollbackOnFailureParameter": true,
+"supportsStatistics": true,
+"supportsAdvancedQueries": true,
+"supportsValidateSql": true,
+"supportsCoordinatesQuantization": true,
+"supportsApplyEditsWithGlobalIds": false,
+"advancedQueryCapabilities": {
+"supportsPagination": true,
+"supportsPaginationOnAggregatedQueries": true,
+"supportsQueryRelatedPagination": true,
+"supportsQueryWithDistance": true,
+"supportsReturningQueryExtent": true,
+"supportsStatistics": true,
+"supportsOrderBy": true,
+"supportsDistinct": true,
+"supportsQueryWithResultType": true,
+"supportsSqlExpression": true,
+"supportsAdvancedQueryRelated": true,
+"supportsCountDistinct": true,
+"supportsReturningGeometryCentroid": false,
+"supportsQueryWithDatumTransformation": true,
+"supportsHavingClause": true,
+"supportsOutFieldSQLExpression": true
+},
+"useStandardizedQueries": true,
+"geometryType": "esriGeometryPoint",
+"minScale": 0,
+"maxScale": 0,
+"extent": {
+"xmin": -167.13099999999997,
+"ymin": 25.141000000000076,
+"xmax": -63.83682999999997,
+"ymax": 69.50000000000006,
+"spatialReference": {
+"wkid": 4326,
+"latestWkid": 4326,
+"vcsWkid": 5773,
+"latestVcsWkid": 5773
+}
+},
+"drawingInfo": {
+"renderer": {
+"type": "uniqueValue",
+"field1": "SightingClass",
+"field2": null,
+"field3": null,
+"defaultSymbol": null,
+"defaultLabel": null,
+"uniqueValueInfos": [
+{
+"symbol": {
+"type": "esriPMS",
+"url": "052bd6123dc56d7fc14d255694bf3bac",
+"imageData": "iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAZ1JREFUKJGVk88r5HEYx18zPr6fZLR8QjOpZUqGYsVBkR/ZVaKNTVlCc5BS5rLKSco/4GAc8A9Qm8u6GRcHpzloOUwomSWy7dQ0s3wnHz+Gwzh8G7/ft+fpeT0973o/gqeVoZSqNE3TBfzXWu8AZvqQSKtlsY+xog7a86pNt5Gr824uMWO7HB9vyODRtPYDp0/ByjPPYuUwX+2SLNCpAQcFziZKnI26+WMDNaEZNRUNRINW2Obxs/BplF7szxixgbONNuxRYzPAAHAqAJSPoXIvnc+CFjlbafbMMrn/A58AcLfSY+TieB1NXeCqp2UfsgVATgGlbwIflF2KR36WtSnPmeS8BzYkQlVplwC4vSbxHvjmnKSKqEMBcBUhDFS8FY4dEA4tR38LAB2Tcxdh/cXhRr4GJjUkwqwDtwJge0QHWGK1OJ/vxkvuk3CyRmjLyzhYErY9SH/GT2RhHV2OEmzp3FUc/m4QikVo5yF+1njebfXxrWnV1RvfO5swFGX2TD6QJHF5zh/+yV/BPj1lXZj+GGx2n60AK49v1o86911NecvnJn88AAAAAElFTkSuQmCC",
+"contentType": "image/png",
+"width": 11,
+"height": 11,
+"angle": 0,
+"xoffset": 0,
+"yoffset": 0
+},
+"value": "Class A, Clear sighting",
+"label": "Class A, Clear sighting",
+"description": ""
+},
+{
+"symbol": {
+"type": "esriPMS",
+"url": "b412b04047eea6d9fb5916cbe1271a3e",
+"imageData": "iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAZNJREFUKJGVk88rRGEUhp8Z3/iSkXEzi9nN1ESKxELRIEyJhBQjNAsp5W4oKyn/wCyMBf4BSjZm59rM2koWYiFXSsqtCdOVL7ksULcxfr27czrP6bz1HkFxlWiaVm/bdgh4UEodA3bhkCiopa4z19dHb2OjHQkEVNXTE/bpKVfZrDxcWVFp4LoYrK2vszk9zYCUlIECwO8n2N5OOBZTHW1tNKVS2rJh5A7dsCedZmN2llGvt7gPjwficeJeb67UMJgArgWArjOVTNL/HehWVxcdq6sszc+ji4/GSCCA/3f0/YLWVjqBcgEQDBL9C/ipaJTa7m7ZLAB8Pir+A0uJaGhQIQHw/Mzjf+B8HseytAsBYFmYQN1f4fNzzO3t3JEAuLuTa6apeiIR5G+gUmCaHAAvAmBmRhlbW2Sqqxmr+MG948D+PifJJAvgStjkJOM7O8iWFgbDYTyF4P09ZLOcWBa9fMTPHc/XRILhTCY0enZ2s6hp1Ph8VDoOj/k8l7e3ci+RUMvuhYWPwdDQzS6wW8Ttl84buhx95cerWAcAAAAASUVORK5CYII=",
+"contentType": "image/png",
+"width": 11,
+"height": 11,
+"angle": 0,
+"xoffset": 0,
+"yoffset": 0
+},
+"value": "Class B, Glimpses or obstructed views",
+"label": "Class B, Glimpses or obstructed views",
+"description": ""
+},
+{
+"symbol": {
+"type": "esriPMS",
+"url": "303965ab911dacfb50ea67819f2a7401",
+"imageData": "iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAXBJREFUKJGV08FLlGEQx/HP2mMPkZG95GFvClIERdQhKMqoBCmiIjCjwkMEQXtJ6BRC/0CH7FD9AwXhJW9tF8+eooPUIdoIZKGFl0pe6SHaOmSwrlrr7zbDfIf5MTPB2tqUZdneoijK+JZSeoOivSi0xbHCrdOM7C+Kgd6UdnyneMun2Rjn7qU0hYW14OwRT65zNrJFSqCHvmP0H01p6AgH7mfZZDXP51rh0hSPbzLatY6PEoYZ7srzzVWuYCFAhWvjnFkPbNUJhh5w9zaVsJy42EtPB6wSDnMcWwP0MdgJ+FeD7D4Z48EA3WzbCBwJ+1IqB/jB0kbgRZqNLPsQoEENezqF31N7luevA3yJ8WEtpVMDxP+BCTVe4WeAGylVnzKzk0v/Mt/ES+bHmaDlwq5y+TnxEOf6/2xkhb5ilvkGI8sDrDjPX2NcmCmXR9/V63cydnWzvcnSIh8/x/hiLKXJ1obtj+F8vT6N6dVm06rUbxIIaotGfC92AAAAAElFTkSuQmCC",
+"contentType": "image/png",
+"width": 11,
+"height": 11,
+"angle": 0,
+"xoffset": 0,
+"yoffset": 0
+},
+"value": "Class C, Second hand reports",
+"label": "Class C, Second hand reports",
+"description": ""
+}
+],
+"fieldDelimiter": ";"
+},
+"transparency": 0,
+"labelingInfo": null
+},
+"allowGeometryUpdates": true,
+"hasAttachments": false,
+"htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+"hasM": false,
+"hasZ": true,
+"enableZDefaults": true,
+"zDefault": 0,
+"objectIdField": "OID",
+"globalIdField": "",
+"typeIdField": "SightingClass",
+"fields": [
+{
+"name": "OID",
+"type": "esriFieldTypeOID",
+"alias": "OID",
+"sqlType": "sqlTypeOther",
+"nullable": false,
+"editable": false,
+"domain": null,
+"defaultValue": null
+},
+{
+"name": "DateOfSighting",
+"type": "esriFieldTypeString",
+"alias": "DateOfSighting",
+"sqlType": "sqlTypeOther",
+"length": 50,
+"nullable": true,
+"editable": true,
+"domain": null,
+"defaultValue": null
+},
+{
+"name": "SightingClass",
+"type": "esriFieldTypeString",
+"alias": "SightingClass",
+"sqlType": "sqlTypeOther",
+"length": 50,
+"nullable": true,
+"editable": true,
+"domain": null,
+"defaultValue": null
+}
+],
+"indexes": [
+{
+"name": "PK__SASQUATC__CB394B39029DAEF8",
+"fields": "OID",
+"isAscending": true,
+"isUnique": true,
+"description": ""
+},
+{
+"name": "user_22030.SASQUATCH_SASQUATCHSIGHTINGS_Shape_sidx",
+"fields": "Shape",
+"isAscending": true,
+"isUnique": false,
+"description": ""
+}
+],
+"types": [
+{
+"id": "Class A, Clear sighting",
+"name": "Class A, Clear sighting",
+"domains": {},
+"templates": [
+{
+"name": "Class A, Clear sighting",
+"description": "",
+"drawingTool": "esriFeatureEditToolPoint",
+"prototype": {
+"attributes": {
+"DateOfSighting": null,
+"SightingClass": "Class A, Clear sighting"
+}
+}
+}
+]
+},
+{
+"id": "Class B, Glimpses or obstructed views",
+"name": "Class B, Glimpses or obstructed views",
+"domains": {},
+"templates": [
+{
+"name": "Class B, Glimpses or obstructed views",
+"description": "",
+"drawingTool": "esriFeatureEditToolPoint",
+"prototype": {
+"attributes": {
+"DateOfSighting": null,
+"SightingClass": "Class B, Glimpses or obstructed views"
+}
+}
+}
+]
+},
+{
+"id": "Class C, Second hand reports",
+"name": "Class C, Second hand reports",
+"domains": {},
+"templates": [
+{
+"name": "Class C, Second hand reports",
+"description": "",
+"drawingTool": "esriFeatureEditToolPoint",
+"prototype": {
+"attributes": {
+"DateOfSighting": null,
+"SightingClass": "Class C, Second hand reports"
+}
+}
+}
+]
+}
+],
+"templates": [],
+"supportedQueryFormats": "JSON, geoJSON",
+"hasStaticData": false,
+"maxRecordCount": 3000,
+"standardMaxRecordCount": 32000,
+"tileMaxRecordCount": 8000,
+"maxRecordCountFactor": 1,
+"capabilities": "Create,Query,Update,Editing"
+}
