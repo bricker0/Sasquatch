@@ -1,4 +1,5 @@
-{
+var points = 
+[{
 "currentVersion": 10.51,
 "id": 0,
 "name": "SasquatchSightings",
@@ -245,4 +246,4 @@
 "tileMaxRecordCount": 8000,
 "maxRecordCountFactor": 1,
 "capabilities": "Create,Query,Update,Editing"
-}
+}];
